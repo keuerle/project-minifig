@@ -113,7 +113,7 @@ export function Head(props) {
           position={[0, 28.8, 0]}
         >
           <meshStandardMaterial color="yellow" />
-          <Sticker url="/head_1.png" position={[0, 0, 0]} rotation={[0, 0, 0]} scale={15.0} />
+          <Sticker url="/head_1.png" position={[0, 1.4, 5]} rotation={[0, 0, 0]} scale={15.0} />
         </mesh>
       </group>
     </group>
