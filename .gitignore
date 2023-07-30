@@ -40,3 +40,6 @@ report.*.json
 
 # .vscode Debugging
 .vscode/launch.json
+
+# public
+/public/old/*

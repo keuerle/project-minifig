@@ -64,9 +64,10 @@ export default function Page() {
         <View orbit className='relative h-full  sm:w-full'>
           <Suspense fallback={null}>
             {/* <Brick scale={0.07} position={[0.0, -1.0, 0.0]} rotation={[0.0, 0.0, 0.0]} /> */}
-            <Head scale={0.07} position={[0.0, -1.0, 0.0]} rotation={[0.0, 0.0, 0.0]} />
-            <Torso scale={0.07} position={[0.0, -1.0, 0.0]} rotation={[0.0, 0.0, 0.0]} />
-            <Legs scale={0.07} position={[0.0, -1.0, 0.0]} rotation={[0.0, 0.0, 0.0]} />
+            {/* <Head scale={0.07} position={[0.0, -1.0, 0.0]} rotation={[0.0, 0.0, 0.0]} /> */}
+            <Head scale={0.07} position={[0.0, 0.0, 0.0]} rotation={[0.0, 0.0, 0.0]} />
+            <Torso scale={0.07} position={[0.0, 0.0, 0.0]} rotation={[0.0, 0.0, 0.0]} />
+            <Legs scale={0.07} position={[0.0, 0.0, 0.0]} rotation={[0.0, 0.0, 0.0]} />
             <Background />
             <Common />
             {/* <Common color={'black'} /> */}
